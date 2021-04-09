@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  max-width: 100vw;
+  background-color: #17022D;
+  background-image: url(../../assets/Circulos.svg);
+  border-bottom-right-radius: 300px; 
+}
+
+.header_logo {
+  margin-top: 106px;
+}
+
+.header_content {
+  display: flex;
+  margin-top: 100px;
+}
+
+.header_text {
+  width: 531px;
+  color: #fff;
+}
+
+.header_img {
+  max-width: 835px;
+  width: 100%;
+  height: auto;
+  image-rendering: -webkit-optimize-contrast;
+}

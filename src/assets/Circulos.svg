@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1000" viewBox="0 0 1920 1000">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Retângulo_1114" data-name="Retângulo 1114" d="M0,0H1920V700c0,165.685-134.315,300-300,300H0Z" fill="#17022d" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="Elipse_285" x="1368.5" y="422.5" width="738" height="738" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Elipse_319" x="-319.5" y="837.5" width="738" height="738" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Elipse_286" x="70.5" y="-525.5" width="738" height="738" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_de_máscara_11" data-name="Grupo de máscara 11" clip-path="url(#clip-path)">
+    <circle id="Elipse_284" data-name="Elipse 284" cx="314.5" cy="314.5" r="314.5" transform="translate(-288 -251)" fill="none" stroke="#aa2972" stroke-width="34" opacity="0.18"/>
+    <circle id="Elipse_287" data-name="Elipse 287" cx="314.5" cy="314.5" r="314.5" transform="translate(1038 805)" fill="none" stroke="#aa2972" stroke-width="56" opacity="0.18"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Elipse_285)">
+      <circle id="Elipse_285-2" data-name="Elipse 285" cx="314.5" cy="314.5" r="314.5" transform="translate(1423 474)" fill="none" stroke="#003d94" stroke-width="91" opacity="0.52"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Elipse_319)">
+      <circle id="Elipse_319-2" data-name="Elipse 319" cx="314.5" cy="314.5" r="314.5" transform="translate(-265 889)" fill="none" stroke="#003d94" stroke-width="91" opacity="0.52"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Elipse_286)">
+      <circle id="Elipse_286-2" data-name="Elipse 286" cx="314.5" cy="314.5" r="314.5" transform="translate(125 -474)" fill="none" stroke="#220a3b" stroke-width="91"/>
+    </g>
+  </g>
+</svg>
