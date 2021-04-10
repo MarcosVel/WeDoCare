@@ -82,4 +82,8 @@ p.page_text {
 
   }
 
+  p {
+    font-size: 16px;
+  }
+
 }

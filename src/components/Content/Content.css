@@ -23,3 +23,32 @@
   height: 376px;
 }
 
+@media (max-width: 768px) {
+  .content_section {
+    margin-bottom: 140px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+  }
+
+  .content > img {
+    max-width: 250px;
+  }
+
+  .content_text {
+    text-align: center;
+  }
+
+  .content:last-child {
+    margin-top: 70px;
+    flex-direction: column-reverse;
+  }
+
+  #podcast_img {
+    max-width: 350px;
+    margin-top: -70px;
+  }
+}
