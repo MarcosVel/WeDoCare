@@ -39,6 +39,10 @@ span {
   font-size: 28px;
 }
 
+.video_btn:hover {
+  background-color: #5cff5c;
+}
+
 @media (max-width: 768px) {
   .video_section {
     max-width: 300px;
@@ -49,7 +53,7 @@ span {
     height: 250px;
   }
 
-  .video_price > h4 {
+  .video_price>h4 {
     max-width: 135px;
   }
 
@@ -58,7 +62,7 @@ span {
   }
 
   .video_btn {
-  font-size: 20px;
-  max-width: 247px;
+    font-size: 20px;
+    max-width: 247px;
   }
 }

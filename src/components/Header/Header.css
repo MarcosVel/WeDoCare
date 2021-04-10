@@ -6,7 +6,7 @@
   height: 100vh;
   width: 100%;
   max-width: 100vw;
-  background-color: #17022D;
+  background-color: var(--purple-background);
   background-image: url(../../assets/Circulos.svg);
   border-bottom-right-radius: 300px;
 }
