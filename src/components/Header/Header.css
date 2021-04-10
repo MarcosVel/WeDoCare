@@ -8,7 +8,7 @@
   max-width: 100vw;
   background-color: #17022D;
   background-image: url(../../assets/Circulos.svg);
-  border-bottom-right-radius: 300px; 
+  border-bottom-right-radius: 300px;
 }
 
 .header_logo {
@@ -31,7 +31,7 @@
 }
 
 .header_btn {
-  width:404px;
+  width: 404px;
   height: 80px;
   background-color: #003D94;
   border: 1px solid #1C5EBC;
@@ -64,5 +64,38 @@
 
 .header_scrollMouse:hover {
   bottom: 60px;
-  
+
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: auto;
+    border-bottom-right-radius: 200px;
+  }
+
+  .header_logo {
+    margin-top: 50px;
+  }
+
+  .header_content {
+    display: flex;
+    margin: 70px 0;
+    flex-direction: column;
+  }
+
+  .header_text {
+    margin-bottom: 30px;
+  }
+
+  .header_text,
+  .header_btn, .header_img {
+    max-width: 300px;
+  }
+
+  .header_scrollMouse{
+    position: relative;
+    bottom: 50px;
+  }
+
+
 }

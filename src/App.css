@@ -61,3 +61,25 @@ p.page_text {
   color: #17022D;
   font-weight: 400;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 33px;
+  }
+
+  h2 {
+  font-size: 16px;
+
+  }
+
+  h3 {
+    font-size: 27px;
+
+  }
+
+  h4 {
+    font-size: 66px;
+
+  }
+
+}
