@@ -12,17 +12,41 @@
 }
 
 .header_logo {
-  margin-top: 106px;
+  margin-top: 90px;
 }
 
 .header_content {
   display: flex;
-  margin-top: 100px;
+  margin-top: 110px;
+  justify-content: center;
 }
 
 .header_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 420px;
   width: 531px;
   color: #fff;
+}
+
+.header_btn {
+  width:404px;
+  height: 80px;
+  background-color: #003D94;
+  border: 1px solid #1C5EBC;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 162, 255, 58%);
+  transition: .3s ease;
+
+  font-family: 'Mulish', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.header_btn:hover {
+  background-color: #002b97;
 }
 
 .header_img {
@@ -30,4 +54,9 @@
   width: 100%;
   height: auto;
   image-rendering: -webkit-optimize-contrast;
+}
+
+.header_scrollMouse {
+  position: absolute;
+  bottom: 50px;
 }
