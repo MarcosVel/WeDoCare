@@ -1,10 +1,13 @@
-.content {
+.content_section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 100px 0;
+  height: 775px;
+  justify-content: space-between;
 }
 
-.content_journal {
+.content {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -12,5 +15,11 @@
 }
 
 .content_text {
-  max-width: 340px;
+  max-width: 350px;
 }
+
+#podcast_img {
+  max-width: 717px;
+  height: 376px;
+}
+
