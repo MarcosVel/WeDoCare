@@ -7,3 +7,27 @@
   background-color: var(--purple-background);
   border-top-left-radius: 200px;
 }
+
+@media (max-width: 768px) {
+  .footer_section {
+  border-top-left-radius: 100px;
+  height: auto;
+  padding: 40px;
+  }
+  
+  #liveclassPurple {
+    max-width: 150px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .footer_section {
+    border-top-left-radius: 100px;
+    height: auto;
+    padding: 40px;
+    }
+    
+    #liveclassPurple {
+      max-width: 200px;
+    }
+}
