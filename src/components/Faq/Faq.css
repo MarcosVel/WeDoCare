@@ -1,0 +1,24 @@
+.faq_section {
+  display: flex;
+  justify-content: center;
+  background-color: #F2F4FB;
+  height: 1373px;
+  width: 100%;
+  border-radius: 300px 0 0 0;
+}
+
+.faq_div {
+  max-width: 1108px;
+}
+
+.faq_card {
+  max-width: 1090px;
+}
+
+.faq_cardHeader {
+  display: flex;
+  align-items: center;
+  height: 66px;
+  cursor: pointer;
+
+}
