@@ -27,9 +27,8 @@
   .mediator_section {
     display: flex;
     flex-direction: column;
-    height: 500px;
-  border-radius: 100px 0 100px 0;
-
+    height: 550px;
+    border-radius: 100px 0 100px 0;
   }
 
   .mediator_text {
@@ -42,6 +41,22 @@
   }
 
   .back_circulo {
-    max-width: 369px;
+    max-width: 369px !important;
+  }
+}
+
+@media (max-width: 1280px) {
+  .mediator_text {
+    width: auto;
+    margin: 60px 0;
+    padding-left: 60px;
+  }
+
+  .mediator_title {
+    margin-bottom: 22px;
+  }
+
+  .back_circulo {
+    max-width: 469px;
   }
 }
