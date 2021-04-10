@@ -18,8 +18,9 @@
 }
 
 .faq_card {
-  border-radius: 15px;
+  border-radius: 15px !important;
   width: 100%;
+  margin: 10px 0;
 }
 
 .faq_cardHeader {

@@ -4,7 +4,7 @@ import Podcast from '../../assets/Podcast.svg';
 
 function Content() {
   return (
-    <section className="content_section">
+    <section className="content_section" id='toContent'>
       <div className="content">
         <div className="content_text">
           <h3>Emoti Journal</h3>

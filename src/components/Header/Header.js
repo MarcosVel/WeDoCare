@@ -2,6 +2,7 @@ import './Header.css';
 import Liveclass from '../../assets/liveclass.svg';
 import Meet from '../../assets/Meet.png';
 import Mouse from '../../assets/Mouse.svg';
+import { Link } from 'react-scroll';
 
 function Header() {
   return (
@@ -16,9 +17,17 @@ function Header() {
         </div>
         <img src={ Meet } alt='Imagem Meet' className="header_img" />
       </div>
-      <a href='#' title='Saiba mais'>
-        <img src={ Mouse } alt='Scroll down' className="header_scrollMouse" />
-      </a>
+      <Link
+        to="toContent"
+        spy={ true }
+        smooth={ true }
+        offset={ -95 }
+        duration={ 800 }
+        title='Saiba mais'
+        className="header_scrollMouse"
+      >
+        <img src={ Mouse } alt='Scroll down'  />
+      </Link>
     </section>
   )
 }
