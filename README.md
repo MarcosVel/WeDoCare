@@ -1,6 +1,6 @@
 # Funcionalidades
 
-Clique no mouse para descer até a próxima seção, site responsivo, player de vídeo com conteúdo.
+Clique no mouse icon para descer até a próxima seção, hover nos botões, site responsivo, player de vídeo com conteúdo.
 
 # Getting Started with Create React App
 
