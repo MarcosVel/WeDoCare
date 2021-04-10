@@ -1,3 +1,7 @@
+# Funcionalidades
+
+Clique no mouse para descer até a próxima seção, site responsivo, player de vídeo com conteúdo.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
