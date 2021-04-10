@@ -9,16 +9,45 @@
 
 .faq_div {
   max-width: 1108px;
+  margin: 75px 0;
+}
+
+.faq_title {
+  margin-bottom: 26px;
 }
 
 .faq_card {
   max-width: 1090px;
+  border-radius: 15px;
 }
 
 .faq_cardHeader {
   display: flex;
   align-items: center;
   height: 66px;
-  cursor: pointer;
 
+  color: #282154;
+  font-size: 22px;
+
+  cursor: pointer;
+  transition: .1s ease;
+}
+
+.faq_cardHeader:hover {
+  background-color: #f5f5f5;
+}
+
+.faq_dropIcon {
+  margin: 0 15px 0 30px;
+}
+
+.faq_cardBody {
+  padding: 0 35px;
+}
+
+.faq_txtCardBody {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #272E4F;
 }
