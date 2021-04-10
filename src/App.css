@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&family=Mulish&display=swap&&family=Roboto&display=swap&family=Roboto:wght@300&display=swap');
 
+:root {
+  --purple-background: #17022D;
+}
+
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 66px;

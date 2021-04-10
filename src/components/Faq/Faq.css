@@ -1,16 +1,18 @@
 .faq_section {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   background-color: #F2F4FB;
-  height: 1373px;
+  /* height: 1373px; */
   width: 100%;
-  border-radius: 300px 0 0 0;
+  border-radius: 200px 0 0 0;
 }
 
 .faq_div {
   max-width: 1090px;
   width: 100%;
-  margin: 75px 0;
+  margin: 75px 0 95px;
 }
 
 .faq_title {
