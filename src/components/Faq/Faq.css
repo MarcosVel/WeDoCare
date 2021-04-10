@@ -8,7 +8,8 @@
 }
 
 .faq_div {
-  max-width: 1108px;
+  max-width: 1090px;
+  width: 100%;
   margin: 75px 0;
 }
 
@@ -17,8 +18,8 @@
 }
 
 .faq_card {
-  max-width: 1090px;
   border-radius: 15px;
+  width: 100%;
 }
 
 .faq_cardHeader {
