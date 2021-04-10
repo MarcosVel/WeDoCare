@@ -13,7 +13,7 @@ function Content() {
         <img src={ Journal } alt='Journal' />
       </div>
       <div className="content">
-        <img src={ Podcast } id='podcast_img' alt='Journal' />
+        <img src={ Podcast } id='podcast_img' alt='Podcast' />
         <div className="content_text">
           <h3>Podcast</h3>
           <p className="page_text">Com temas atuais e que abordam assuntos importantes e determinantes para diversas fases da sua vida, o participante poderá incrementar seu processo terapêutico.</p>

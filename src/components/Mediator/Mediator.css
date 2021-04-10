@@ -1,0 +1,24 @@
+.mediator_section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #F2F4FB;
+  width: 100%;
+  height: 681px;
+  border-radius: 300px 0 300px 0;
+}
+
+.back_circulo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.mediator_text {
+  max-width: 380px;
+  margin-left: 416px;
+}
+
+.mediator_title {
+  margin-bottom: 52px;
+}
