@@ -22,3 +22,26 @@
 .mediator_title {
   margin-bottom: 52px;
 }
+
+@media (max-width: 768px) {
+  .mediator_section {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+  border-radius: 100px 0 100px 0;
+
+  }
+
+  .mediator_text {
+    max-width: 300px;
+    margin: 60px 0;
+  }
+
+  .mediator_title {
+    margin-bottom: 22px;
+  }
+
+  .back_circulo {
+    max-width: 90%;
+  }
+}
