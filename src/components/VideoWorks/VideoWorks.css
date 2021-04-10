@@ -38,3 +38,27 @@ span {
   font-family: 'Mulish', sans-serif;
   font-size: 28px;
 }
+
+@media (max-width: 768px) {
+  .video_section {
+    max-width: 300px;
+  }
+
+  iframe {
+    max-width: 350px;
+    height: 250px;
+  }
+
+  .video_price > h4 {
+    max-width: 135px;
+  }
+
+  span {
+    font-size: 48px;
+  }
+
+  .video_btn {
+  font-size: 20px;
+  max-width: 247px;
+  }
+}

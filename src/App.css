@@ -78,8 +78,12 @@ p.page_text {
   }
 
   h4 {
-    font-size: 66px;
+    font-size: 18px;
 
+  }
+
+  h5 {
+    font-size: 22px;
   }
 
   p {
