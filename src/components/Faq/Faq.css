@@ -56,7 +56,26 @@
   color: #272E4F;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
+  .faq_section {
+    border-radius: 100px 0 0 0;
+    }
+
+  .faq_div {
+    max-width: 80%;
+  }
+
+  .faq_cardHeader {
+    height: auto;
+    font-size: 20px !important;
+  }
+
+  .faq_txtCardBody {
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 767px) {
   .faq_section {
   border-radius: 100px 0 0 0;
   }
@@ -68,25 +87,10 @@
 
   .faq_cardHeader {
     height: auto;
-    font-size: 15px;
+    font-size: 15px !important;
   }
 
   .faq_txtCardBody {
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 1280px) {
-  .faq_div {
-    max-width: 80%;
-  }
-
-  .faq_cardHeader {
-    height: auto;
-    font-size: 20px;
-  }
-
-  .faq_txtCardBody {
-    font-size: 15px;
+    font-size: 14px !important;
   }
 }
